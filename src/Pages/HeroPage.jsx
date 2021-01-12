@@ -14,7 +14,7 @@ const HeroPage = () => {
     const { globalData: { confirmed } } = useContext(DataContext)
 
 
-    return (
+    return(
         <Box id="hero" className={styles.container}>
             <Container maxWidth="lg">
                 <Typography className={fontWeight.bold} variant='h2' gutterBottom>
