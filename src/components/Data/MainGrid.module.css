@@ -1,9 +1,0 @@
-.container {
-    margin-top: 1em;
-}
-
-@media (maxWidth: 768px) {
-    .container {
-        margin-top: 0em;
-    }
-}
