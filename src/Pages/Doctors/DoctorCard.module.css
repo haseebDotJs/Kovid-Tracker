@@ -1,0 +1,39 @@
+.card {
+    transition: all 1s;
+}
+
+.card:hover {
+    transform: scale(1.01);
+}
+
+.ul {
+    display: block;
+    list-style-type: none;
+    width: 100%;
+}
+
+.phoneLi, .emailLi {
+    display: flex;
+    align-items: center;
+    /* padding: 0px 15px; */
+}
+
+.phoneLi {
+    border: 1px solid rgb(236,240,243);
+}
+
+.phone,.email {
+    padding: 10px 15px;
+    border-right: 1px solid rgb(234, 242, 248);
+}
+
+.phoneText, .emailText {
+    padding: 10px 15px;
+    color: rgb(105, 105, 105);
+}
+
+.emailLi {
+    border-right: 1px solid rgb(236,240,243);
+    border-bottom: 1px solid rgb(236,240,243);
+    border-left: 1px solid rgb(236,240,243);
+}

@@ -1,0 +1,36 @@
+.container {
+    background-color: rgb(6, 55, 147);
+}
+
+.text {
+    color: white;
+    max-width: 85%;
+}
+
+.color {
+    color: white;
+}
+
+.anchor {
+    color: white;
+}
+
+.anchor:hover {
+    color: rgb(226, 225, 225);
+    text-decoration: underline;
+}
+
+.listStyled {
+    list-style-type: none;
+}
+
+.ending {
+    background-color: rgb(0, 29, 84);
+    text-align: center;
+}
+
+@media(max-width: 968px) {
+    .text {
+        max-width: 100%;
+    }
+}

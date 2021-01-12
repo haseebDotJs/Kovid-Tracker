@@ -1,0 +1,15 @@
+.light {
+    font-weight: 200 !important;
+}
+
+.regular {
+    font-weight: 400 !important;
+}
+
+.medium {
+    font-weight: 600 !important;
+}
+
+.bold {
+    font-weight: 800 !important;
+}
