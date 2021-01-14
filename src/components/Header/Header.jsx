@@ -5,6 +5,7 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Logo from '../../images/logo-dark.png'
 import Container from '@material-ui/core/Container'
+import Box from '@material-ui/core/Box'
 import MenuItem from './MenuItems'
 
 // context
@@ -30,9 +31,11 @@ export default function Header() {
             {mobile ? <ResponsiveDrawer /> :
                 <AppBar style={{ backgroundColor: "white" }}>
                     <Container maxWidth='lg'>
-                        <Toolbar>
+                        <Toolbar style={{ justifyContent: "space-between" }}>
                             <img src={Logo} alt="logo" className={classes.logo} />
-                            <MenuItem />
+                            <Box style={{ display: "flex", justifyContent: "space-between" }}>
+                                <MenuItem />
+                            </Box>
                         </Toolbar>
                     </Container>
                 </AppBar>

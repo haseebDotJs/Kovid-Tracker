@@ -27,7 +27,7 @@ const MenuItems = () => {
             href: "#Best-Doctors",
             item: "Best Doctors",
         },
-        {
+        { 
             href: "#FAQ",
             item: "FAQ",
         }
