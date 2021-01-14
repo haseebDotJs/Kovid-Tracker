@@ -103,7 +103,7 @@ const FAQ = () => {
                 <Box mb={5}>
                     <Box mb={2}>
                         <Typography variant="h4" className={cx(fontWeight.bold, "heading")}>
-                            Friquently Ask Questions
+                            Friquently Asked Questions
                         </Typography>
                     </Box>
                     <Box maxWidth="70%" mx="auto">
